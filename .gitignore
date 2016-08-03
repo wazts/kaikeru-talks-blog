@@ -1,4 +1,3 @@
 node_modules/
 npm-debug.log*
-
-content/themes/casper/
+*.db
