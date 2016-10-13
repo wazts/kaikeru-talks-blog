@@ -57,7 +57,7 @@ config = {
       debug: false
     },
     server: {
-      host: process.env.IP,
+      host: process.env.IP || '0.0.0.0',
       port: process.env.PORT
     },
     paths: {
