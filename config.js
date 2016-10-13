@@ -20,8 +20,8 @@ if (!!process.env.S3_ACCESS_KEY_ID) {
 } else if (!!process.env.BUCKETEER_AWS_ACCESS_KEY_ID) {
   fileStorage = true
   storage = {
-    active: 'ghost-s3',
-    'ghost-s3': {
+    active: 's3',
+    's3': {
       accessKeyId:     process.env.BUCKETEER_AWS_ACCESS_KEY_ID,
       secretAccessKey: process.env.BUCKETEER_AWS_SECRET_ACCESS_KEY,
       bucket:          process.env.BUCKETEER_BUCKET_NAME,
