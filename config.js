@@ -32,10 +32,6 @@ if (!!process.env.S3_ACCESS_KEY_ID) {
     storage = {}
 }
 
-if (storage) {
-    console.log(storage);
-}
-
 config = {
 
     // Production (Heroku)
