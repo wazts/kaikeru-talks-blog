@@ -77,8 +77,8 @@ config = {
             debug: false
         },
         server: {
-            host: '127.0.0.1',
-            port: '2368'
+            host: process.env.IP || '127.0.0.1',
+            port: process.env.PORT || '2368'
         },
         storage: storage,
         paths: {
