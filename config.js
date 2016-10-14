@@ -68,7 +68,7 @@ config = {
 
     // Development
     development: {
-        url: 'http://localhost:2368',
+        url: process.env.C9_HOSTNAME ? 'https://' + process.env.C9_HOSTNAME : 'http://localhost:2368',
         database: {
             client: 'sqlite3',
             connection: {
