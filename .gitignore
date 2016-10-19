@@ -4,3 +4,6 @@ npm-debug.log*
 
 # Storage
 content/storage/s3/
+
+# Content
+content/images/
