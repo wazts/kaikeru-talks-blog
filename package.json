@@ -1,26 +1,26 @@
 {
-    "name": "kaikeru-talks-blog",
-    "description": "Just a blogging platform on Heroku.",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/cobyism/ghost-on-heroku.git"
-    },
-    "bugs": "https://github.com/TryGhost/Ghost/issues",
-    "private": true,
-    "version": "0.11.3",
-    "dependencies": {
-        "express": "^4.14.0",
-        "ghost": "^0.11.3",
-        "ghost-storage-adapter-s3": "^1.2.0",
-        "ncp": "^2.0.0",
-        "pg": "^6.1.0"
-    },
-    "engines": {
-        "node": "~4.6.1"
-    },
-    "scripts": {
-        "start": "node server.js",
-        "postinstall": "cp -r node_modules/ghost-storage-adapter-s3 content/storage/s3"
-    }
+  "name": "kaikeru-talks-blog",
+  "description": "Kaikeru Talks blog",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cobyism/ghost-on-heroku.git"
+  },
+  "bugs": "https://github.com/TryGhost/Ghost/issues",
+  "private": true,
+  "version": "0.11.3",
+  "dependencies": {
+    "express": "^4.15.3",
+    "ghost": "^0.11.9",
+    "ghost-storage-adapter-s3": "^1.3.0",
+    "ncp": "^2.0.0",
+    "pg": "^6.2.4"
+  },
+  "engines": {
+    "node": "~4.6.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "cp -r node_modules/ghost-storage-adapter-s3 content/storage/s3"
+  }
 }
